@@ -1,12 +1,18 @@
+
 /* Style Settings */
-@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 :root {
-    --bgColor: beige;
-    --accentColor: #ff0000;
-    --font: 'Modak', cursive;
+    --bgColor: white;
+    --accentColor: #ebc16e;
+    --font: 'Karla', sans-serif;
 }
 
 body{
+    background-image: url("background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     background-color: var(--bgColor);
 }
 
@@ -15,24 +21,23 @@ body{
     height: 96px;
     display: block;
     margin: 35px auto 20px;
-    border-radius: 15px;
+    border-radius: 50%;
 }
 
 #userName{
-    color: #ffe600;
-    font-size: 2rem;
-    font-weight: 400;
+    color: #bbb;
+    font-size: 1rem;
+    font-weight: 600;
     line-height: 1.25;
     display: block;
     font-family: var(--font);
     width: 100%;
     text-align: center;
     text-decoration: none;
-    text-shadow: 3px 3px 0 var(--accentColor), 1px 1px 0 var(--accentColor), 2px 2px 0 var(--accentColor);
 }
 
 #links{
-    max-width: 675px;
+    max-width: 375px;
     width: auto;
     display: block;
     margin: 27px auto;
@@ -46,10 +51,9 @@ body{
     margin-bottom: 20px;
     padding: 17px;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     transition: all .25s cubic-bezier(.08,.59,.29,.99);
     border: solid var(--accentColor) 2px;
-    border-radius: 15px;
 }
 
 .link:hover{
