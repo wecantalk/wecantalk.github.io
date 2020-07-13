@@ -4,6 +4,7 @@
 :root {
     --bgColor: white;
     --accentColor: #a89c86;
+    --moreColor: #a89c99;
     --font: 'Karla', sans-serif;
 }
 
@@ -45,6 +46,19 @@ body{
 .link{
     display: block;
     background-color: var(--accentColor);
+    color: var(--bgColor);
+    font-family: var(--font);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all .25s cubic-bezier(.08,.59,.29,.99);
+    border: solid var(--accentColor) 2px;
+}
+.link2{
+    display: block;
+    background-color: var(--moreColor);
     color: var(--bgColor);
     font-family: var(--font);
     text-align: center;
