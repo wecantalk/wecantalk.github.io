@@ -39,7 +39,17 @@ body{
     text-align: center;
     text-decoration: none;
 }
-
+#userHeader{
+    color: #a89c86;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
 #links{
     max-width: 375px;
     width: auto;
