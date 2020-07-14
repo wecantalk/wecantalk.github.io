@@ -2,9 +2,9 @@
 /* Style Settings */
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 :root {
-    --bgColor: white;
-    --accentColor: #a89c86;
-    --moreColor: #af5d3f;
+    --bgColor: #f8fbfd;
+    --accentColor: #37b4ff;
+    --moreColor: #0069a8;
     --font: 'Karla', sans-serif;
     --animate-duration: 1s;
     --animate-delay: 1s;
@@ -12,24 +12,24 @@
 }
 
 body{
-    background-image: url("background.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
     background-color: var(--bgColor);
 }
 
 #userPhoto{
-    width: 96px;
-    height: 96px;
+    width: 300px;
+    height: 100px;
     display: block;
     margin: 35px auto 20px;
-    border-radius: 50%;
+}
+#userBanner{
+    width: 350px;
+    height: 300px;
+    display: block;
+    margin: 35px auto 20px;
 }
 
 #userName{
-    color: #a89c86;
+    color: var(--moreColor);
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.25;
@@ -40,7 +40,7 @@ body{
     text-decoration: none;
 }
 #userHeader{
-    color: #a89c86;
+    color: var(--moreColor);
     font-size: 2rem;
     font-weight: 600;
     line-height: 1.25;
@@ -50,6 +50,7 @@ body{
     text-align: center;
     text-decoration: none;
 }
+
 #links{
     max-width: 375px;
     width: auto;
@@ -80,7 +81,7 @@ body{
     text-decoration: none;
     font-size: 1rem;
     transition: all .25s cubic-bezier(.08,.59,.29,.99);
-    border: solid var(--accentColor) 2px;
+    border: solid var(--moreColor) 2px;
 }
 
 .link:hover{
@@ -90,6 +91,32 @@ body{
 .link2:hover{
     background-color: var(--bgColor);
     color: var(--moreColor);
+}
+.footer {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.footer a {
+    text-decoration:none;
+}
+
+.circle {
+    background: var(--accentColor);
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 3px;
+    color: white;
+}
+
+.circle:hover {
+    background: white;
+    color: var(--accentColor);
+    -webkit-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
+    box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
 }
 .animate__animated {
   -webkit-animation-duration: 1s;
