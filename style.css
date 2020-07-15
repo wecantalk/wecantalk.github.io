@@ -2,7 +2,7 @@
 /* Style Settings */
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 :root {
-    --bgColor: #ebf5fb;
+    --bgColor: #e6f3fb;
     --accentColor: #37b4ff;
     --moreColor: #0069a8;
     --font: 'Karla', sans-serif;
@@ -38,6 +38,17 @@ body{
     width: 100%;
     text-align: center;
     text-decoration: none;
+}
+#userNames{
+    color: var(--moreColor);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: justify;
+    text-justify: inter-none;
 }
 #userHeader{
     color: var(--moreColor);
@@ -94,7 +105,7 @@ body{
 }
 .footer {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .footer a {
@@ -104,8 +115,8 @@ body{
 .circle {
     background: var(--accentColor);
     border-radius: 50px;
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     text-align: center;
     font-size: 3px;
     color: white;
@@ -117,6 +128,13 @@ body{
     -webkit-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
     -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
     box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
+}
+.jumbotron {
+  background-image: url('https://imgur.com/MN6s7zh.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
 }
 .animate__animated {
   -webkit-animation-duration: 1s;
